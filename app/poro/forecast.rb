@@ -51,7 +51,6 @@ class Forecast
     return 'SW' if degree.between?(202.5, 247.5)
     return 'W' if degree.between?(247.5, 292.5)
     return 'NW' if degree.between?(292.5, 337.5)
-
-    'N'
+    return 'N'
   end
 end
