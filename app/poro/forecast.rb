@@ -2,7 +2,6 @@ class Forecast
   attr_reader :id, :current_weather, :daily_weather, :hourly_weather
 
   def initialize(data)
-    binding.pry
     @id = nil
     @current_weather = current(data[:current])
     @daily_weather = daily(data[:daily])[0..4]
