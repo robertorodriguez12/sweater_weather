@@ -44,13 +44,21 @@ class Forecast
   end
 
   def wind_direction(degree)
-    return 'NE' if degree.between?(22.5, 67.5)
-    return 'E' if degree.between?(67.5, 112.5)
-    return 'SE' if degree.between?(112.5, 157.5)
-    return 'S' if degree.between?(157.5, 202.5)
-    return 'SW' if degree.between?(202.5, 247.5)
-    return 'W' if degree.between?(247.5, 292.5)
-    return 'NW' if degree.between?(292.5, 337.5)
-    return 'N'
+    return 'N' if degree.between?(348.75, 11.25)
+    return 'NNE' if degree.between?(11.25, 33.75)
+    return 'NE' if degree.between?(33.75, 56.25)
+    return 'ENE' if degree.between?(56.25, 78.75)
+    return 'E' if degree.between?(78.75, 101.25)
+    return 'ESE' if degree.between?(101.25, 123.75)
+    return 'SE' if degree.between?(123.75, 146.25)
+    return 'SSE' if degree.between?(146.25, 168.75)
+    return 'S' if degree.between?(168.75, 191.25)
+    return 'SSW' if degree.between?(191.25, 213.75)
+    return 'SW' if degree.between?(213.75, 236.25)
+    return 'WSW' if degree.between?(236.25, 258.75)
+    return 'W' if degree.between?(258.75, 281.25)
+    return 'WNW' if degree.between?(281.25, 303.75)
+    return 'NW' if degree.between?(303.75, 326.25)
+    return 'NNW' if degree.between?(326.25, 348.75)
   end
 end
