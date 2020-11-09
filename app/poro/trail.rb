@@ -1,7 +1,11 @@
 class Trail
-    # def initialize(first, second)
-    #     @first = first
-    #     @second = second
-    # end
+    def initialize(data, coord)
+        binding.pry
+        @name = data[:name]
+        @summary = data[:summary]
+        @difficulty = data[:difficulty]
+        @location = data[:location]
+        @distance_to_trail = distance_to_trail
+    end
     
 end
