@@ -277,7 +277,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null,
@@ -311,8 +311,56 @@
           null,
           null
         ]
+      },
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/controllers/api/v1/trails_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/facades/map_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/services/map_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1604934679
+    "timestamp": 1604935050
   }
 }
