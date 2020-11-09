@@ -9,7 +9,23 @@
           1,
           1,
           null,
-          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -308,6 +324,7 @@
           1,
           1,
           1,
+          1,
           null,
           null
         ]
@@ -320,6 +337,7 @@
       },
       "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/facades/image_facade.rb": {
         "lines": [
+          1,
           1,
           1,
           1,
@@ -347,8 +365,29 @@
           null,
           null
         ]
+      },
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/poro/image.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/serializers/image_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1604963535
+    "timestamp": 1604965329
   }
 }
