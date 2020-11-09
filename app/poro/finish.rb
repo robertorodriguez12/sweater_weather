@@ -13,7 +13,6 @@ class Finish
         a = WeatherFacade.fetch_weather(@coord)
         b = a.current_weather[:conditions]
         c = a.current_weather[:temperature]
-        puts b 
-        puts c
+        d = b, c 
     end
 end

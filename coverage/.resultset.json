@@ -10,6 +10,9 @@
           1,
           1,
           null,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -413,7 +416,6 @@
           1,
           1,
           1,
-          1,
           null,
           null
         ]
@@ -424,40 +426,6 @@
           1,
           null,
           1,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/facades/trail_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          10,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/services/trail_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
           null
         ]
       },
@@ -546,8 +514,8 @@
           1,
           8,
           8,
-          6,
-          1,
+          7,
+          2,
           1,
           1,
           1,
@@ -563,8 +531,42 @@
           null,
           null
         ]
+      },
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/facades/trail_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          10,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/services/trail_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1604947692
+    "timestamp": 1604948538
   }
 }
