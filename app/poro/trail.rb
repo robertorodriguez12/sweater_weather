@@ -17,6 +17,7 @@ class Trail
 
     def distance_to_trail
         a = MapFacade.fetch_distance(@location, @start_point)
+        a[:route][:distance]
     end
     
 end
