@@ -5,6 +5,7 @@ class WeatherService
         response = conn.get('/data/2.5/onecall') do |faraday|
             faraday.params['lat'] = location[0]
             faraday.params['lon'] = location[1]
+            faraday.params['units'] = 'imperial'
             faraday.params['appid'] = ENV['WEATHER_API_Key']
         end 
         JSON.parse(response.body, symbolize_names: true)
