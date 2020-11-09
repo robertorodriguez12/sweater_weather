@@ -5,5 +5,9 @@ class MapFacade
         lat = data[:results].first[:locations].first[:latLng][:lat]
         lng = data[:results].first[:locations].first[:latLng][:lng]
         lat_lng = [lat, lng]
-    end 
+    end
+    
+    def self.fetch_distance(destination, start_point)
+        response = MapService.fetch_distance(destination, start_point)
+    end
 end
