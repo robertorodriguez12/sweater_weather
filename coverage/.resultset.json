@@ -1,17 +1,88 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/spec/api/v1/trails/trail_spec.rb": {
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/spec/api/v1/retrieve_weather_spec.rb": {
         "lines": [
           1,
           null,
           1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
           1,
           1,
           1,
           null,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          null,
+          null,
           null,
           null
         ]
@@ -304,36 +375,7 @@
           null
         ]
       },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/poro/trail.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10,
-          null,
-          null,
-          1,
-          10,
-          10,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/controllers/api/v1/trails_controller.rb": {
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/controllers/api/v1/weather_controller.rb": {
         "lines": [
           1,
           1,
@@ -363,7 +405,7 @@
           null,
           null,
           1,
-          10,
+          0,
           null,
           null
         ]
@@ -379,53 +421,22 @@
           null,
           null,
           1,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10,
-          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
-          10,
+          0,
           null,
-          null,
-          1,
           null,
           1,
-          11,
-          null,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/poro/finish.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
           null,
           1,
           1,
           null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/serializers/finish_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
           null
         ]
       },
@@ -532,41 +543,15 @@
           null
         ]
       },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/facades/trail_facade.rb": {
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/serializers/forecast_serializer.rb": {
         "lines": [
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          10,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/services/trail_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
           null
         ]
       }
     },
-    "timestamp": 1604948846
+    "timestamp": 1604949948
   }
 }

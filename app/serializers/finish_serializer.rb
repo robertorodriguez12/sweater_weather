@@ -1,5 +1,5 @@
 class FinishSerializer
   include FastJsonapi::ObjectSerializer
   # attributes :summary, :temperature, :current, 
-  attributes :id, :forecast, :trails
+  attributes :id, :start_point, :forecast, :trails
 end
