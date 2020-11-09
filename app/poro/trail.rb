@@ -4,13 +4,15 @@ class Trail
                 :summary,
                 :difficulty, 
                 :location, 
-                :distance_to_trail
+                :distance_to_trail,
+                :id
 
     def initialize(data, coord)
-        @name = data[:trails].first[:name]
-        @summary = data[:trails].first[:summary]
-        @difficulty = data[:trails].first[:difficulty]
-        @location = data[:trails].first[:location]
+        @id = nil
+        @name = data[:name]
+        @summary = data[:summary]
+        @difficulty = data[:difficulty]
+        @location = data[:location]
         @start_point = coord
         @distance_to_trail = distance_to_trail
     end
