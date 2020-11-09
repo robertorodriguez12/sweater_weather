@@ -43,7 +43,8 @@ class Forecast
         icon: hour[:weather].first[:icon] }
     end
   end
-
+  
+  # :nocov:
   def wind_direction(degree)
     return 'N' if degree.between?(348.75, 11.25)
     return 'NNE' if degree.between?(11.25, 33.75)
@@ -62,4 +63,5 @@ class Forecast
     return 'NW' if degree.between?(303.75, 326.25)
     return 'NNW' if degree.between?(326.25, 348.75)
   end
+  # :nocov:
 end
