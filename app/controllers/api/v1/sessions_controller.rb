@@ -4,7 +4,9 @@ class Api::V1::SessionsController < ApplicationController
         if @user && @user.authenticate(session_params[:password])
             session[:user_id] = @user.id
             render json: UserSerializer.new(@user), status: 200
-        end
+        else
+            render json: "Your credentials are bad.", status: 401
+        end 
     end
 
     private

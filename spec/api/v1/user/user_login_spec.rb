@@ -26,6 +26,6 @@ RSpec.describe 'POST /api/v1/users' do
 
 
     expect(response.status).to eq(401)
-    expect(response.body).to eq("Sorry Try Again")
+    expect(response.body).to eq("Your credentials are bad.")
   end
 end
