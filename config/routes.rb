@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       
       get '/forecast', to: 'weather#local'
       get '/backgrounds', to: 'image#show'
+      get '/munchies', to: 'munchie#find'
     end
   end
 end
