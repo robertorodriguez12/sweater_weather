@@ -5,6 +5,15 @@ class MapService
             faraday.params['key'] = ENV['MAP_API_Key']
         end 
     end
+
+    def self.get_route(origin, destination)
+        response = conn.get('/directions/v2/route') do |faraday|
+            faraday.params['from'] = origin
+            faraday.params['to'] = destination
+            faraday.params['key'] = ENV['MAP_API_Key']
+        end
+        JSON.parse(response.body, symbolize_names: true)
+    end
     
     private
 
