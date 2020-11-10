@@ -1,0 +1,23 @@
+{
+    "dt": 1605033599,
+    "sunrise": 1605015570,
+    "sunset": 1605052105,
+    "temp": 279.01,
+    "feels_like": 274.36,
+    "pressure": 1004,
+    "humidity": 24,
+    "dew_point": 261.4,
+    "uvi": 2.41,
+    "clouds": 0,
+    "visibility": 10000,
+    "wind_speed": 1.97,
+    "wind_deg": 206,
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ]
+}
