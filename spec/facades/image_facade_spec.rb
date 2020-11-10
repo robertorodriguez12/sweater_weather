@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'webmock/rspec'
 
 RSpec.describe ImageFacade do
   it 'returns an image object' do
