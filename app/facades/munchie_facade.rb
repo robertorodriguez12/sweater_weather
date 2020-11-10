@@ -5,6 +5,6 @@ class MunchieFacade
         travel_time = MapService.get_travel_time(params[:start],params[:end])
         coord = MapFacade.fetch_lat_long(params[:end])
         weather = WeatherService.get_weather(coord)
-        Munchie.new(yelp, travel_time, weather)
+        Munchie.new(yelp, travel_time, weather, params[:end])
     end   
 end
