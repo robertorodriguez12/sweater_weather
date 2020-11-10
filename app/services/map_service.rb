@@ -4,7 +4,6 @@ class MapService
             faraday.params['location'] = location
             faraday.params['key'] = ENV['MAP_API_Key']
         end
-        binding.pry 
     end
 
     def self.get_travel_time(from, to)
@@ -14,7 +13,7 @@ class MapService
             faraday.params['key'] = ENV['MAP_API_Key']
         end
         json = JSON.parse(response.body, symbolize_names: true)
-        json[:legs]
+        json[:route][:formattedTime]
     end
     
     private
