@@ -15,4 +15,17 @@ RSpec.describe 'POST /api/v1/users' do
     expect(results[:data][:attributes]).to have_key(:api_key)
     expect(results[:data][:attributes][:api_key]).to eq(user.api_key)
   end
+  
+  it 'should error with an invalid password' do
+    user = create(:user, email: 'whatever@example.com', password: "password" )
+
+    invalid = "invalid"
+
+
+    post "/api/v1/sessions?email=#{user.email}&password=#{invalid}"
+
+
+    expect(response.status).to eq(401)
+    expect(response.body).to eq("Sorry Try Again")
+  end
 end
