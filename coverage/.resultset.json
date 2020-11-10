@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/spec/api/v1/retrieve_image_spec.rb": {
+      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/spec/api/v1/final/munchie_spec.rb": {
         "lines": [
           1,
           null,
@@ -9,23 +9,29 @@
           1,
           1,
           null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -294,7 +300,7 @@
           null,
           null,
           1,
-          2,
+          1,
           null,
           null,
           null,
@@ -313,81 +319,13 @@
           null,
           1,
           1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/controllers/api/v1/image_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/facades/image_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
           1,
           null,
           null,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/services/image_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/poro/image.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/robertorodriguez/turing/mod3/projects/sweater_weather/app/serializers/image_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          2,
-          1,
           null
         ]
       }
     },
-    "timestamp": 1604965329
+    "timestamp": 1605021938
   }
 }
