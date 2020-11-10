@@ -9,6 +9,5 @@ class MapFacade
 
     def self.get_route(origin, destination)
         response = MapService.get_route(origin, destination)
-        response[:route]
     end
 end

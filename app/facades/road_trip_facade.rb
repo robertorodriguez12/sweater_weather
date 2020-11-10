@@ -1,9 +1,14 @@
 class RoadTripFacade
     def self.get_route(params)
-        route = MapFacade.get_route(params[:origin],params[:destination])
-        forecast = get_forecast_at_arrival(params, route)
-        travel_duration = route[:formattedTime]
-        RoadTrip.new(params[:origin],params[:destination],travel_duration, forecast)
+        trip = MapFacade.get_route(params[:origin],params[:destination])
+        if trip[:info][:statuscode].between?(400,499)
+            RoadTripError.new(params[:origin],params[:destination])
+        else
+            route = trip[:route]
+            forecast = get_forecast_at_arrival(params, route)
+            travel_duration = route[:formattedTime]
+            RoadTrip.new(params[:origin],params[:destination],travel_duration, forecast)
+        end 
     end
     
     def self.get_forecast_at_arrival(params, route)
