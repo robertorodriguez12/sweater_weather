@@ -15,8 +15,8 @@ class Munchie
     end
     
     def forecast
-       {summary: @weather[:current][:weather].first[:description],
-        temperature: @weather[:current][:temp] }
+       {summary: @weather[:weather].first[:description],
+        temperature: @weather[:temp] }
     end
 
     def restaurant
