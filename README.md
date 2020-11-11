@@ -24,8 +24,8 @@ Sweater Weather has a database that holds a Users table. This is used in order f
 In the terminal, once ```CD'd``` into the Sweater Weather repository, run ```rails s```.
 
 This following part is best done using Postman:
-    * ```http://localhost:3000``` is the beginning of the URL, make sure to append the API endpoints that you wish to test (ex... ```/api/v1/forecast```) as well as the required paramaters.
-    * Do this for the rest of the API endpoints you wish to test and enjoy. (If this becomes cumbersome, simply run rspec in the terminal after exiting from the rails s session.)
+- ```http://localhost:3000``` is the beginning of the URL, make sure to append the API endpoints that you wish to test (ex... ```/api/v1/forecast```) as well as the required paramaters.
+- Do this for the rest of the API endpoints you wish to test and enjoy. (If this becomes cumbersome, simply run rspec in the terminal after exiting from the rails s session.)
 
 ## Learning Goals
 - Expose an API that aggregates data from multiple external APIs
