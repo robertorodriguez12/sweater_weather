@@ -6,4 +6,4 @@ deploy:
   on:
     repo: robertorodriguez12/sweater_weather
     branch: main
-  skip_cleanup: 'true'
+  skip_cleanup: true
