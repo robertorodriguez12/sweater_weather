@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.describe 'POST /api/v1/users' do
   it 'returing user gets api key in response' do
     user = create(:user, email: 'whatever@example.com', password: "password" )
-
+    # user_params = {email: user.email, password: user.password}
     post "/api/v1/sessions?email=#{user.email}&password=#{user.password}"
-
+    # post "/api/v1/sessions" , params: JSON.generate (user_params)
     expect(response).to be_successful
     
     results = JSON.parse(response.body, symbolize_names: true)
