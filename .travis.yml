@@ -1,0 +1,9 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: w2YbkaPK7hfUqDVn2CtX4x6aa8FGrz9yvHvNcIDQ7kV42B2AMvmvLmpK/v5MCrqRGNcacoaJRC/3XUN369TfqKEguRk2ty4KqpfC8OWY2a07qjeQZhW1f7E13KOujAMf/Eq8DH4FXuR0WuWaZlEW0zRxX3Wnz3wZmbwi/yoYc1/53K14sgbD9oVakklQN72R9O7U0IK0Wb5tCF69BvFBOvPE+GOTujamdFfMseNjJgLFV1/nbDHg9QMFYMfj7GXRJWGzsPNO7FhfWLB3yO+X1oyMSqcGjRrLku6IfX9qzx2O4c5DX9x381UXP5oHNfdhuBIPuEurOL/XbOxTxpY8IuhJe7C6ZtHr94BZmZb/4vnXIU5xDgf/1LTaTTHURfkEuJA1BtaEi6f9SlhcYjXEOzgG0k6bMtOIT6e+0yPkKOr7ZwOCJWUxhq+MPP7m5iheTGkTpqDV+juWEgJja88e83uV0JAxxhS3wq6qMPZ16/dTf4GilpfLUtW5DV+qPh+5MdjkgEl8WGEX2tzwAWIiZD6YOtpxsgkBRQczJhcyrKCACwhn8+Midc1g+NhlN1ldlVdC79kcjd1XkRG+3H+f23z85S4vCAyehVwb+rY6NT88W7DaR6XYL+7mWU7/vR5OhZYlczx3tnIoYG3a606MQMIOHNlkWH1XHI252K4JII4=
+  app: sweater_weather
+  on:
+    repo: robertorodriguez12/sweater_weather
+    branch: main
+  skip_cleanup: 'true'
